@@ -1,0 +1,19 @@
+<div>
+<app-acordeon title="Calendario"> 
+    <app-grid/>
+</app-acordeon>
+<app-acordeon title="Contador"> 
+    <app-counter/>
+</app-acordeon>
+<app-acordeon title="Relog"> 
+    <app-timer/>
+</app-acordeon>
+<app-acordeon title="Paginas"> 
+    <app-layout/>    
+</app-acordeon>
+<app-acordeon title="Modal"> 
+    <app-modal #modal></app-modal>
+    <button (click) = "hClick($event)">Abre el dialogo</button>
+</app-acordeon>
+
+</div>
